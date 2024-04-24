@@ -15,38 +15,35 @@
 
 /* Fixed header styling */
 .app-header {
-  top: 0; /* Aligns the header at the top */
-  left: 0; /* Aligns the header to the left edge */
-  width: 100%; /* Ensures the header spans the full width of the viewport */
+  top: 0; 
+  left: 0; 
+  width: 100%; 
   height: fit-content;
   padding: 10px 20px;
-  background-color: #007bff; /* Blue background for the header */
+  background-color: #007bff; 
   color: white;
   text-align: center;
   font-size: 40px;
-  z-index: 1000; /* Keeps the header above other content */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds shadow for aesthetic separation */
+  z-index: 1000; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
   font-family: monospace;
 }
 
 
-
-/* Chat window styling */
 .chat-window {
   display: flex;
-  flex-direction: column; /* Reverse the order so new messages appear at the bottom */
-  overflow-y: auto; /* Allows scrolling */
-  height: 80vh; /* Adjust height as needed */
+  flex-direction: column; 
+  overflow-y: auto; 
+  height: 75vh; 
   padding: 20px 50px;
-  width: 90%; /* Or whatever width you prefer */
-  margin: auto; /* Center the chat window if needed */
-  background-color: #fff; /* Background color */
-  border: 1px solid #ccc; /* Border around chat window */
+  width: 90%; 
+  margin: auto; 
+  background-color: #fff; 
+  border: 1px solid #ccc; 
 }
 
-/* Ensure new messages are placed at the bottom initially and grow upwards */
 .chat-window {
-  align-items: flex-end; /* Aligns new messages to the bottom */
+  align-items: flex-end;
 }
 
 
