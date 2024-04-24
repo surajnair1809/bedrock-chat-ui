@@ -3,8 +3,7 @@ import { marked } from 'marked';
 import DOMPurify from 'dompurify';
 import { useState } from 'react';
 
-const ChatWindow = ({ messages }) => {
-  const [isLoading, setIsLoading] = useState(false);
+const ChatWindow = ({ messages, isLoading }) => {
   const endOfMessagesRef = useRef(null);
 
   useEffect(() => {
