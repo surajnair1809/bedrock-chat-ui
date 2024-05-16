@@ -13,7 +13,7 @@ const App = () => {
     setIsLoading(true);
     try {
       const response = await fetch(
-        "https://x7tebgt4mzycht743c7zslxjii0tklty.lambda-url.us-east-1.on.aws/",
+        "https://feem2yrlwauedxurocdm5wy54a0nnprd.lambda-url.us-east-1.on.aws/",
         {
           method: "POST",
           headers: {
